@@ -11,8 +11,6 @@ import { createBrowserRouter } from "react-router-dom";
 import CategoriesDetalis from "./component/web/categories/CategoriesDetalis.jsx";
 import Product from "./component/web/products/Product.jsx";
 import { CartContextProvider } from "./component/web/context/Cart.jsx";
-import Cat from "./component/web/cat/Cat.jsx";
-import CatDetalis from "./component/web/cat/CatDetalis.jsx";
 import Cart from "./component/web/cart/Cart.jsx";
 import EnterEmail from "./component/web/login/SendCode.jsx";
 import Newpass from "./component/web/login/Newpass.jsx";
@@ -126,20 +124,6 @@ export default function App() {
             path:'*',
             element:<h2>page not found --- web</h2>
           }
-          
-          
-          
-          
-          
-          
-          // {
-          //   path:'category-detalis/:catId',
-          //   element:<CatDetalis/>
-          // },
-          // {
-          //   path:'cat',
-          //   element:<Cat/>
-          // },
           
       ]
     },
