@@ -56,7 +56,7 @@ return (
         <h2 className='my-4'>Enter Email</h2>
         <form onSubmit={formik.handleSubmit} >
         {renderInput}
-        <button type='submit' className='mb-3' disabled={!formik.isValid} className={`${style.btn}`}>Send Code</button>
+        <button type='submit' disabled={!formik.isValid} className={`mb-3 ${style.btn}`}>Send Code</button>
         </form>  
     </div>
 )

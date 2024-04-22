@@ -61,7 +61,7 @@ export default function Product() {
                 {userToken&&<Link to={`/rating/${data._id}`} className={`${style.btn}`}>ADD NEW REVIEW</Link>}
             </div>
 
-            {/* <h5 className='my-5 fw-bold'>REVIEWS:</h5>
+            <h5 className='my-5 fw-bold'>REVIEWS:</h5>
             {data.reviews.length ? (data.reviews.map((review, index) =>
                 <div className={`${style.card}`} key={review._id}>
                     <div className="div mx-3">
@@ -94,7 +94,7 @@ export default function Product() {
                         </div>
                     </div>
                 </div>
-            )) : <h1>No Reviews</h1>} */}
+            )) : <h1>No Reviews</h1>}
 
         </div>
     )
